@@ -202,9 +202,15 @@ function generateCriterionId(categoryId: string, questionIndex: number, subCateg
   return `${prefix}${cleanSub}.${questionIndex}`;
 }
 
+const assetUrl = (file: string) => {
+  // import.meta.env.BASE_URL is set by Vite and includes trailing slash (e.g., "/repo/")
+  const base = (import.meta as any).env?.BASE_URL || '/';
+  return new URL(file, base).toString();
+};
+
 export async function loadQuestions(): Promise<Record<string, CriterionDefinition>> {
   try {
-    const response = await fetch('/questions.csv');
+    const response = await fetch(assetUrl('questions.csv'));
     const text = await response.text();
     
     return new Promise((resolve, reject) => {
@@ -329,7 +335,7 @@ export async function loadQuestions(): Promise<Record<string, CriterionDefinitio
 
 export async function loadWeights(): Promise<Record<string, number>> {
   try {
-    const response = await fetch('/weights.csv');
+    const response = await fetch(assetUrl('weights.csv'));
     const text = await response.text();
     
     return new Promise((resolve, reject) => {
