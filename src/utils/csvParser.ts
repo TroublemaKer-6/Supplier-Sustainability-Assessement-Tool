@@ -203,16 +203,20 @@ function generateCriterionId(categoryId: string, questionIndex: number, subCateg
 }
 
 const assetUrl = (file: string) => {
-  // import.meta.env.BASE_URL is set by Vite and includes trailing slash (e.g., "/repo/")
+  // import.meta.env.BASE_URL is set by Vite and includes trailing slash (e.g., "/repo/").
+  // Build an absolute URL rooted at the current origin to avoid subpath issues on GitHub Pages.
   const base = (import.meta as any).env?.BASE_URL || '/';
-  // Build a relative URL (safe for GitHub Pages subpaths)
-  const normalizedBase = base.endsWith('/') ? base.slice(0, -1) : base;
-  return `${normalizedBase}/${file}`;
+  const normalizedBase = base.endsWith('/') ? base : `${base}/`;
+  return new URL(`${normalizedBase}${file}`, window.location.origin).toString();
 };
 
 export async function loadQuestions(): Promise<Record<string, CriterionDefinition>> {
   try {
-    const response = await fetch(assetUrl('questions.csv'));
+    const url = assetUrl('questions.csv');
+    const response = await fetch(url);
+    if (!response.ok) {
+      throw new Error(`Failed to load questions.csv (${response.status} ${response.statusText}) at ${url}`);
+    }
     const text = await response.text();
     
     return new Promise((resolve, reject) => {
@@ -337,7 +341,11 @@ export async function loadQuestions(): Promise<Record<string, CriterionDefinitio
 
 export async function loadWeights(): Promise<Record<string, number>> {
   try {
-    const response = await fetch(assetUrl('weights.csv'));
+    const url = assetUrl('weights.csv');
+    const response = await fetch(url);
+    if (!response.ok) {
+      throw new Error(`Failed to load weights.csv (${response.status} ${response.statusText}) at ${url}`);
+    }
     const text = await response.text();
     
     return new Promise((resolve, reject) => {
