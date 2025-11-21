@@ -1,6 +1,7 @@
 # Powerhouse Museum Sustainable Supplier Evaluation System
 
 A comprehensive frontend application for evaluating suppliers based on sustainability criteria. The system supports manual assessments, AI-powered evaluations, and weighted scoring across multiple categories.
+Add demo video link here: [YouTube placeholder](https://youtu.be/lWaKeU7Omo0)
 
 ## Features
 
