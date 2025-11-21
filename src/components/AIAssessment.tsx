@@ -496,9 +496,18 @@ export const AIAssessment = ({
               Save & Review
             </button>
           </div>
+
+          <div className="mt-6 p-6 bg-gray-50 border border-gray-200">
+            <h3 className="text-sm font-semibold text-black mb-2">Running AI assessment for real</h3>
+            <ul className="text-sm text-gray-700 space-y-1">
+              <li>1) In `server/.env`, set `OPENAI_API_KEY=your-key` (keep it out of the frontend).</li>
+              <li>2) From `server/`, run `npm install` then `npm start` (defaults to `http://localhost:3001`).</li>
+              <li>3) Frontend will call `VITE_API_URL` if set (e.g., `http://localhost:3001`); otherwise it uses the default.</li>
+              <li>4) Default model: `gpt-4o-mini` (approx $0.15 per 1M input tokens, $0.60 per 1M output). Full ~60-question runs typically cost only a few cents.</li>
+            </ul>
+          </div>
         </section>
       )}
     </div>
   );
 };
-

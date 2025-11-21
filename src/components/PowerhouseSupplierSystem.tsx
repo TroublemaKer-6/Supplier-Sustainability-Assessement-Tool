@@ -573,4 +573,3 @@ const PowerhouseSupplierSystem = () => {
 };
 
 export default PowerhouseSupplierSystem;
-

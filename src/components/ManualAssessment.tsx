@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { ChevronRight, X, AlertCircle } from 'lucide-react';
 import { CriterionDefinition } from '../utils/csvParser';
 
@@ -75,6 +75,22 @@ export const ManualAssessment = ({
     }
     return 'NO_SCORE';
   };
+
+  // Ensure all criteria have an initial score entry to avoid undefined lookups
+  useEffect(() => {
+    if (!criteriaDefinitions || Object.keys(criteriaDefinitions).length === 0) return;
+    const nextScores = { ...formData.scores };
+    let changed = false;
+    Object.keys(criteriaDefinitions).forEach((id) => {
+      if (nextScores[id] === undefined) {
+        nextScores[id] = null;
+        changed = true;
+      }
+    });
+    if (changed) {
+      onInputChange('scores', nextScores);
+    }
+  }, [criteriaDefinitions, formData.scores, onInputChange]);
 
   // Group criteria by category and filter by priority and status (if in edit mode)
   const groupedCriteria: Record<string, Array<[string, CriterionDefinition]>> = {};
