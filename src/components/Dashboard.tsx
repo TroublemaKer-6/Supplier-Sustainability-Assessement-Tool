@@ -1,7 +1,6 @@
-import { Search, MapPin, Award, Edit, X, Settings, Leaf, Cog, RefreshCw, Users, Shield, Star } from 'lucide-react';
+import { Search, MapPin, Edit, X, Settings } from 'lucide-react';
 import { Supplier } from '../utils/storage';
 import { CriterionDefinition } from '../utils/csvParser';
-import { calculateAllScores, getCategoryScore } from '../utils/scoring';
 
 interface DashboardProps {
   suppliers: Supplier[];
@@ -19,27 +18,7 @@ interface DashboardProps {
   onDeleteSupplier: (id: number) => void;
   onViewChange: (view: string) => void;
   criteriaDefinitions: Record<string, CriterionDefinition>;
-  categoryWeights: Record<string, number>;
 }
-
-// Category icons mapping
-const categoryIcons: Record<string, any> = {
-  '1': Leaf,
-  '2': Cog,
-  '3': RefreshCw,
-  '4': Users,
-  '5': Shield,
-  '6': Star
-};
-
-const categoryNames: Record<string, string> = {
-  '1': 'Material Sourcing',
-  '2': 'Operations',
-  '3': 'Product Design',
-  '4': 'Commitment',
-  '5': 'Compliance',
-  '6': 'Performance'
-};
 
 export const Dashboard = ({
   suppliers,
@@ -56,18 +35,8 @@ export const Dashboard = ({
   onEditSupplier,
   onDeleteSupplier,
   onViewChange,
-  criteriaDefinitions,
-  categoryWeights
+  criteriaDefinitions
 }: DashboardProps) => {
-  // Calculate category scores for a supplier
-  const getCategoryScores = (supplier: Supplier) => {
-    const scores: Record<string, number> = {};
-    Object.keys(categoryNames).forEach(categoryId => {
-      scores[categoryId] = getCategoryScore(supplier.scores, categoryId, criteriaDefinitions);
-    });
-    return scores;
-  };
-
   // Calculate completion percentage (excluding questions that need review)
   const getCompletionPercentage = (supplier: Supplier) => {
     const totalQuestions = Object.keys(criteriaDefinitions).length;
@@ -180,7 +149,6 @@ export const Dashboard = ({
             {filteredSuppliers.map(supplier => {
               const totalScore = getSupplierScore(supplier);
               const scoreDisplay = totalScore.toFixed(1);
-              const categoryScores = getCategoryScores(supplier);
               const completionPercentage = getCompletionPercentage(supplier);
               const scorePercentage = (totalScore / 4) * 100;
               
@@ -312,4 +280,3 @@ export const Dashboard = ({
     </div>
   );
 };
-

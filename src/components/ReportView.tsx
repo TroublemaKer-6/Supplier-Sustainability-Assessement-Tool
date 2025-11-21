@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ChevronRight, Edit, XCircle, AlertCircle, Leaf, Cog, RefreshCw, Users, Shield, Star } from 'lucide-react';
+import { ChevronRight, Edit, XCircle, AlertCircle } from 'lucide-react';
 import { Supplier } from '../utils/storage';
 import { CriterionDefinition } from '../utils/csvParser';
 import { calculateAllScores } from '../utils/scoring';
@@ -11,16 +11,6 @@ interface ReportViewProps {
   onEdit: () => void;
   onBack: () => void;
 }
-
-// Category icons mapping
-const categoryIcons: Record<string, any> = {
-  '1': Leaf,
-  '2': Cog,
-  '3': RefreshCw,
-  '4': Users,
-  '5': Shield,
-  '6': Star
-};
 
 const categoryNames: Record<string, string> = {
   '1': 'Material Sourcing',
@@ -450,4 +440,3 @@ export const ReportView = ({
     </div>
   );
 };
-

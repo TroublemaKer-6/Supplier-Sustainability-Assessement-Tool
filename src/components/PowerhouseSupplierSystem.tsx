@@ -470,16 +470,15 @@ const PowerhouseSupplierSystem = () => {
               selectedMaterials={selectedMaterials}
               setSelectedMaterials={setSelectedMaterials}
               sortBy={sortBy}
-              setSortBy={setSortBy}
-              allMaterials={allMaterials}
-              getSupplierScore={getSupplierScore}
-              onSupplierClick={(supplier) => { setSelectedSupplier(supplier); navigateToView('report', supplier.id); }}
-              onEditSupplier={handleEditSupplier}
-              onDeleteSupplier={handleDeleteSupplier}
-              onViewChange={(view) => navigateToView(view)}
-              criteriaDefinitions={criteriaDefinitions}
-              categoryWeights={categoryWeights}
-            />
+            setSortBy={setSortBy}
+            allMaterials={allMaterials}
+            getSupplierScore={getSupplierScore}
+            onSupplierClick={(supplier) => { setSelectedSupplier(supplier); navigateToView('report', supplier.id); }}
+            onEditSupplier={handleEditSupplier}
+            onDeleteSupplier={handleDeleteSupplier}
+            onViewChange={(view) => navigateToView(view)}
+            criteriaDefinitions={criteriaDefinitions}
+          />
       )}
       {view === 'settings' && (
         <Settings
@@ -574,5 +573,4 @@ const PowerhouseSupplierSystem = () => {
 };
 
 export default PowerhouseSupplierSystem;
-
 

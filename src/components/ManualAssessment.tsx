@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ChevronRight, X, Upload, FileText, AlertCircle } from 'lucide-react';
+import { ChevronRight, X, AlertCircle } from 'lucide-react';
 import { CriterionDefinition } from '../utils/csvParser';
 
 const categoryNames: Record<string, string> = {
@@ -565,4 +565,3 @@ export const ManualAssessment = ({
     </div>
   );
 };
-

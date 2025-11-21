@@ -186,14 +186,11 @@ function extractCategoryName(category: string): string {
 
 // Generate criterion ID based on category, subcategory, and question index within subcategory
 function generateCriterionId(categoryId: string, questionIndex: number, subCategory: string): string {
-  // Clean subcategory: extract the key part (e.g., "1d. RECYCLING PROCESS" -> "1d")
-  const subKey = subCategory.trim();
-  
   // Try to extract pattern like "1a", "1b", "2c", etc. from subcategory
   // The subcategory already includes the category number (e.g., "1d" has "1" in it)
   const subMatch = subCategory.match(/(\d+)([a-z])/i);
   if (subMatch) {
-    const subNum = subMatch[1];
+    const subNum = categoryId || subMatch[1];
     const subLetter = subMatch[2].toLowerCase();
     // Format: subcategory.questionNumber (e.g., "1d.1", "1d.2") - no need to duplicate category
     return `${subNum}${subLetter}.${questionIndex}`;
@@ -201,7 +198,8 @@ function generateCriterionId(categoryId: string, questionIndex: number, subCateg
   
   // Fallback: if no pattern found, use cleaned subcategory and question index
   const cleanSub = subCategory.replace(/[^a-zA-Z0-9]/g, '').substring(0, 10) || 'q';
-  return `${cleanSub}.${questionIndex}`;
+  const prefix = categoryId ? `${categoryId}.` : '';
+  return `${prefix}${cleanSub}.${questionIndex}`;
 }
 
 export async function loadQuestions(): Promise<Record<string, CriterionDefinition>> {
@@ -219,7 +217,6 @@ export async function loadQuestions(): Promise<Record<string, CriterionDefinitio
         transformHeader: (header) => header.trim(), // Trim whitespace from headers
         complete: (results) => {
           const criteria: Record<string, CriterionDefinition> = {};
-          let categoryIndex = 0;
           const categoryCounts: Record<string, number> = {};
           const subCategoryCounts: Record<string, number> = {}; // Track questions per subcategory
           
@@ -319,7 +316,7 @@ export async function loadQuestions(): Promise<Record<string, CriterionDefinitio
           
           resolve(criteria);
         },
-        error: (error) => {
+        error: (error: unknown) => {
           reject(error);
         }
       });
@@ -346,13 +343,13 @@ export async function loadWeights(): Promise<Record<string, number>> {
             if (!row.category) return;
             const categoryId = extractCategoryId(row.category);
             if (categoryId) {
-              weights[categoryId] = parseFloat(row.weight) || 0;
+              weights[categoryId] = parseFloat(String(row.weight)) || 0;
             }
           });
           
           resolve(weights);
         },
-        error: (error) => {
+        error: (error: unknown) => {
           reject(error);
         }
       });
@@ -379,4 +376,3 @@ export function getCategoryWeights(weights: Record<string, number>): CategoryWei
     weight
   }));
 }
-

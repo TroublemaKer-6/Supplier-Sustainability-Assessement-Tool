@@ -1,6 +1,5 @@
-import { ChevronRight, Check, AlertCircle, Download, Upload } from 'lucide-react';
+import { ChevronRight, Download, Upload } from 'lucide-react';
 import { getCategoryWeights } from '../utils/csvParser';
-import { normalizeWeights } from '../utils/scoring';
 
 interface SettingsProps {
   tempWeights: Record<string, number>;
@@ -143,4 +142,3 @@ export const Settings = ({
     </div>
   );
 };
-

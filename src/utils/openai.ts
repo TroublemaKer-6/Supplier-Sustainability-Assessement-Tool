@@ -1,7 +1,3 @@
-// OpenAI API integration placeholder
-// Replace this with actual OpenAI API calls when ready
-
-import { loadSettings } from './storage';
 import { CriterionDefinition } from './csvParser';
 
 export interface AIAssessmentRequest {
@@ -108,5 +104,4 @@ export async function runAIAssessment(
     throw error;
   }
 }
-
 
