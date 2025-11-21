@@ -205,7 +205,9 @@ function generateCriterionId(categoryId: string, questionIndex: number, subCateg
 const assetUrl = (file: string) => {
   // import.meta.env.BASE_URL is set by Vite and includes trailing slash (e.g., "/repo/")
   const base = (import.meta as any).env?.BASE_URL || '/';
-  return new URL(file, base).toString();
+  // Build a relative URL (safe for GitHub Pages subpaths)
+  const normalizedBase = base.endsWith('/') ? base.slice(0, -1) : base;
+  return `${normalizedBase}/${file}`;
 };
 
 export async function loadQuestions(): Promise<Record<string, CriterionDefinition>> {
