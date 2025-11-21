@@ -257,11 +257,19 @@ export async function loadQuestions(): Promise<Record<string, CriterionDefinitio
               console.warn(`Skipped row ${idx + 1}: No category ID found`, row.CATEGORY);
               return;
             }
-            
+
             const categoryName = extractCategoryName(row.CATEGORY);
             const priority = (row.PRIORITY || 'MEDIUM').toUpperCase() as 'HIGH' | 'MEDIUM' | 'LOW';
             const question = row['KEY EVALUATION QUESTIONS'].trim();
             const scoringGuide = row['SCORING GUIDE'] || '';
+
+            // Debug logging for problematic questions
+            if (question.includes('third-party certifications')) {
+              console.log(`Row ${idx + 1} - Question length: ${question.length}`);
+              console.log(`Question: "${question}"`);
+              console.log(`Scoring guide: "${scoringGuide}"`);
+              console.log(`Question includes scoring guide?`, question.includes('4='));
+            }
             
             const options = parseScoringGuide(scoringGuide);
             if (options.length === 0) {

@@ -119,9 +119,8 @@ Does the supplier provide any data or reports verifying their recycling efficien
 3=Partial
 2=Limited
 1=No"
-"3. PRODUCT DESIGN  & LIFECYCLE 
-(Circular design, repairability, take-back systems)",3b. CERTIFICATION,HIGH,"Are there any third-party certifications that verify the sustainability of the sourcing practices?
-If yes, please list them and share link. If no, indicate "not found online."","4=ISO 9001 (Quality Management Systems) or others certifications
+"3. PRODUCT DESIGN  & LIFECYCLE
+(Circular design, repairability, take-back systems)",3b. CERTIFICATION,HIGH,"Are there any third-party certifications that verify the sustainability of the sourcing practices?","4=ISO 9001 (Quality Management Systems) or others certifications
 3=Product environmental footprint
 2=Extended producer responsibility
 1=Circular economy certification"
@@ -244,9 +243,8 @@ If yes, please list them and share link. If no, indicate "not found online."","4
 3=Documented internal policy
 2=Informal/ad hoc system
 1=None"
-"5. COMPLIANCE & GOVERNANCE 
-(Legal, ethical, and regulatory integrity)",5b. CERTIFICATION,HIGH,"Are there any third-party certifications that verify the sustainability of the sourcing practices?
-If yes, please list them and share link. If no, indicate "not found online."","4=Reconciliation Action Plan (RAP) (Australia) or others certifications
+"5. COMPLIANCE & GOVERNANCE
+(Legal, ethical, and regulatory integrity)",5b. CERTIFICATION,HIGH,"Are there any third-party certifications that verify the sustainability of the sourcing practices?","4=Reconciliation Action Plan (RAP) (Australia) or others certifications
 3=Fair Trade Certification
 2=SA8000 – Social Accountability Standard
 1=Global Reporting Initiative (GRI) Standards"

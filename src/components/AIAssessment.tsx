@@ -106,6 +106,31 @@ export const AIAssessment = ({
         <p className="text-sm text-gray-600">AI will search the internet to automatically answer all assessment questions</p>
       </div>
 
+      {/* Setup Instructions Box */}
+      <div className="mb-8 p-6 bg-blue-50 border-l-4 border-blue-500 rounded-r">
+        <div className="flex items-start">
+          <AlertCircle className="w-5 h-5 text-blue-500 mr-3 mt-0.5 flex-shrink-0" />
+          <div>
+            <h3 className="text-sm font-semibold text-blue-900 mb-2">Backend Setup Required</h3>
+            <p className="text-sm text-blue-800 mb-3">
+              The AI Assessment feature requires the backend server with a valid OpenAI API key.
+            </p>
+            <div className="text-sm text-blue-800 space-y-1">
+              <p className="font-medium">To enable AI Assessment:</p>
+              <ol className="list-decimal ml-5 space-y-1">
+                <li>Navigate to the <code className="bg-blue-100 px-1 py-0.5 rounded">server/</code> directory</li>
+                <li>Copy <code className="bg-blue-100 px-1 py-0.5 rounded">.env.example</code> to <code className="bg-blue-100 px-1 py-0.5 rounded">.env</code></li>
+                <li>Add your OpenAI API key to <code className="bg-blue-100 px-1 py-0.5 rounded">server/.env</code> (get one from <a href="https://platform.openai.com/api-keys" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-600">platform.openai.com</a>)</li>
+                <li>Run <code className="bg-blue-100 px-1 py-0.5 rounded">npm install</code> and <code className="bg-blue-100 px-1 py-0.5 rounded">npm start</code> in the server directory</li>
+              </ol>
+              <p className="mt-3 text-xs text-blue-700">
+                💡 <strong>Note:</strong> You can still use <strong>Manual Assessment</strong> without setting up the backend. Only AI Assessment requires the OpenAI API.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* Input Section */}
       {!results && !processing && (
         <section className="mb-12">
