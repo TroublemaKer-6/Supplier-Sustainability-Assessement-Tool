@@ -1,0 +1,352 @@
+CATEGORY,SUB-CATEGORY,PRIORITY,KEY EVALUATION QUESTIONS,SCORING GUIDE
+"1.MATERIAL SOURCING 
+(Transparency, traceability, and input responsibility)",1a.MATERIAL SOURCING,HIGH,"Is the material supplier for the Powerhouse Museum based in Sydney, or within NSW, or within Australia or are the materials sourced from overseas? If sourced abroad, please specify the country of origin and the approximate distance (in kilometers) from Sydney, Australia.","4 = Local
+3 = Regional
+2 = National
+1 = International"
+"1.MATERIAL SOURCING 
+(Transparency, traceability, and input responsibility)",1b. CERTIFICATION,HIGH,Are there any third-party certifications that verify the sustainability of the sourcing practices?,"4=GECA (Good Environmental Choice Australia)
+3=Cradle to Cradle (C2C) Certification
+2=PEFC (Programme for the Endorsement of Forest Certification)
+1=FSC (Forest Stewardship Council) or other certifications"
+"1.MATERIAL SOURCING 
+(Transparency, traceability, and input responsibility)",1c.FIRST NATIONS COMMUNITIES,HIGH,"Does the supplier demonstrate consideration for Aboriginal and Torres Strait Islander communities through acknowledgment of Country, consultation, or collaborative practices associated with material sourcing or cultural knowledge?
+Please provide evidence such as partnership statements, policy links, or project examples.
+","4=Active Collaboration
+3=Documented Consultation
+2=General Commitment
+1=Minimal Reference"
+"1.MATERIAL SOURCING 
+(Transparency, traceability, and input responsibility)",1d. RECYCLING PROCESS,MEDIUM,Does the supplier share any information about their recycling process?,"3=Yes - detailed
+2=Partial
+1=No"
+"1.MATERIAL SOURCING 
+(Transparency, traceability, and input responsibility)",1d. RECYCLING PROCESS,MEDIUM,"What proportion of the materials used are recycled, reclaimed, or reused?","4=>75%
+3=50-75%
+2=25-50%
+1=<25%"
+"1.MATERIAL SOURCING 
+(Transparency, traceability, and input responsibility)",1d. RECYCLING PROCESS,MEDIUM,"How does the supplier manage or repurpose non-recyclable materials (e.g., reuse, upcycling, partner recycling programs, or landfill disposal)?","4=Reused
+3=Upcycled
+2=Partner recycler
+1=Landfill"
+"1.MATERIAL SOURCING 
+(Transparency, traceability, and input responsibility)",1d. RECYCLING PROCESS,LOW,Does the supplier share any data or reports that verify their recycling performance or outcomes?,"3=Regular
+2=Occasional
+1=None"
+"1.MATERIAL SOURCING 
+(Transparency, traceability, and input responsibility)",1d. RECYCLING PROCESS,LOW,"Does the supplier work with certified recycling partners or facilities?
+","3=Yes - certified
+2=Yes - Non-certified
+1=No"
+"1.MATERIAL SOURCING 
+(Transparency, traceability, and input responsibility)",1d. RECYCLING PROCESS,LOW,"
+Does the supplier provide any data or reports verifying their recycling efficiency or outcomes?","3=Regular
+2=Occasional
+1=None"
+"2. OPERATIONAL PRACTICES & RESOURCE EFFIENCY 
+(Daily practices, resource use, waste, and risk management)","2a.WATER,ENERGY, CARBON FOOTPRINT",HIGH,How does the supplier reduce energy and water consumption in their operations?,"4=Comprehensive program with measurable reduction targets and data
+3=Some reduction measures mentioned but no data
+2=General statement only
+1=No evidence of reduction practices"
+"2. OPERATIONAL PRACTICES & RESOURCE EFFIENCY 
+(Daily practices, resource use, waste, and risk management)","2a.WATER,ENERGY, CARBON FOOTPRINT",HIGH,What proportion of energy used comes from renewable sources?,"4=>75%
+3=50-75%
+2=25-50%
+1=<25%"
+"2. OPERATIONAL PRACTICES & RESOURCE EFFIENCY 
+(Daily practices, resource use, waste, and risk management)","2a.WATER,ENERGY, CARBON FOOTPRINT",HIGH,Do they track or offset their carbon emissions?,"4=Publicly reports and offsets
+3=Tracks but does not offset
+2=Mentions carbon efforts without data
+1=No tracking or offset"
+"2. OPERATIONAL PRACTICES & RESOURCE EFFIENCY 
+(Daily practices, resource use, waste, and risk management)","2a.WATER,ENERGY, CARBON FOOTPRINT",MEDIUM,Are water-recycling or closed-loop systems used in production?,"4=Fully implemented closed-loop system
+3=Partial water recycling
+2=Plans or pilot stage
+1=No system identified"
+"2. OPERATIONAL PRACTICES & RESOURCE EFFIENCY 
+(Daily practices, resource use, waste, and risk management)","2a.WATER,ENERGY, CARBON FOOTPRINT",MEDIUM,What actions have been taken to minimise pollution or chemical waste?,"4=Documented pollution-prevention program
+3=Some chemical reduction initiatives
+2=General environmental policy only
+1=No action"
+"2. OPERATIONAL PRACTICES & RESOURCE EFFIENCY 
+(Daily practices, resource use, waste, and risk management)","2a.WATER,ENERGY, CARBON FOOTPRINT",MEDIUM,"Does the supplier mitigate environmental impact beyond carbon footprint reduction (e.g., biodiversity, community restoration)? Does the supplier publish a carbon-footprint or sustainability report?","4=Publishes comprehensive sustainability report and beyond-carbon initiatives
+3=Publishes carbon report only
+2=Mentions initiatives without report
+1=No evidence"
+"2. OPERATIONAL PRACTICES & RESOURCE EFFIENCY 
+(Daily practices, resource use, waste, and risk management)",2b. CERTIFICATION,HIGH,Are there any third-party certifications that verify the sustainability of the sourcing practices?,"4=ISO 14001 – Environmental Management Systems (EMS)
+3=ISO 50001 – Energy Management Systems
+2=ISO 14064 (Greenhouse Gas Emissions)
+1=B Corp Certification GECA (Good Environmental Choice Australia) or other certifications"
+"2. OPERATIONAL PRACTICES & RESOURCE EFFIENCY 
+(Daily practices, resource use, waste, and risk management)",2c. RISK ISSUES & MANAGEMENT,HIGH,"How does the supplier manage risks related to sustainability (e.g., material shortages, non-compliance, logistics delays)?","4=Formal risk management framework documented
+3=Risk actions mentioned without detail
+2=Ad hoc approach
+1=No evidence"
+"2. OPERATIONAL PRACTICES & RESOURCE EFFIENCY 
+(Daily practices, resource use, waste, and risk management)",2c. RISK ISSUES & MANAGEMENT,MEDIUM,What systems are in place to handle rejected or defective materials sustainably?,"4=Repair/reuse program documented
+3=Occasional reuse
+2=Mentions disposal but no recovery
+1=No system in place"
+"2. OPERATIONAL PRACTICES & RESOURCE EFFIENCY 
+(Daily practices, resource use, waste, and risk management)",2c. RISK ISSUES & MANAGEMENT,MEDIUM,Are there contingency plans for minimising environmental impact in case of disruptions?,"4=Detailed contingency plan in place
+3=Partial or site-specific plan
+2=Mention of intent without details
+1=No plan"
+"2. OPERATIONAL PRACTICES & RESOURCE EFFIENCY 
+(Daily practices, resource use, waste, and risk management)",2c. RISK ISSUES & MANAGEMENT,LOW,How do they respond to issues?,"4=Publicly discloses and outlines response actions
+3=Shares internally but not public
+2=Mentions transparency without details
+1=No evidence"
+"2. OPERATIONAL PRACTICES & RESOURCE EFFIENCY 
+(Daily practices, resource use, waste, and risk management)",2d. TRAINING & STAFF ENGAGEMENT,MEDIUM,Does the supplier provide staff training on sustainability or circular economy practices?,"4=Regular structured training with documented outcomes
+3=Occasional training sessions
+2=General mention of training
+1=No evidence"
+"3. PRODUCT DESIGN  & LIFECYCLE 
+(Circular design, repairability, take-back systems)",3a. CIRCULARITY,HIGH,"To what extent does the supplier provide circular or second-life products(refurbished, reused, or second-hand) rather than new only?","1=None
+2=Low
+3=Medium
+4= High"
+"3. PRODUCT DESIGN  & LIFECYCLE 
+(Circular design, repairability, take-back systems)",3a. CIRCULARITY,HIGH,"Are products designed for easy disassembly, repair, or recycling at material or component level?","4=Comprehensive
+3=Partial
+2=Limited
+1=No"
+"3. PRODUCT DESIGN  & LIFECYCLE 
+(Circular design, repairability, take-back systems)",3a. CIRCULARITY,HIGH,Can individual components be repaired or replaced instead of discarding the full product?,"4=Fully repairable
+3=Partial
+2=Limited
+1=No"
+"3. PRODUCT DESIGN  & LIFECYCLE 
+(Circular design, repairability, take-back systems)",3b. CERTIFICATION,HIGH,"Are there any third-party certifications that verify the sustainability of the sourcing practices?
+If yes, please list them and share link. If no, indicate "not found online."","4=ISO 9001 (Quality Management Systems) or others certifications
+3=Product environmental footprint
+2=Extended producer responsibility
+1=Circular economy certification"
+"3. PRODUCT DESIGN  & LIFECYCLE 
+(Circular design, repairability, take-back systems)",3b. CERTIFICATION,HIGH,Does the supplier provide a verified Environmental Product Declaration (EPD)?,"4=Comprehensive
+3=Verified(Non-Registered)
+2=Limited
+1=None"
+"3. PRODUCT DESIGN  & LIFECYCLE 
+(Circular design, repairability, take-back systems)",3c. END OF LIFE CYCLE,MEDIUM,Can products or components be reused or adapted for future exhibitions or alternate purposes?,"4=Routinely
+3=Often
+2=Occassionaly
+1=No"
+"3. PRODUCT DESIGN  & LIFECYCLE 
+(Circular design, repairability, take-back systems)",3c. END OF LIFE CYCLE,MEDIUM,"Does the supplier provide care, maintenance, or shelf-life documentation to extend lifespan?","4=Detailed
+3=Moderate
+2=Basic
+1=None"
+"3. PRODUCT DESIGN  & LIFECYCLE 
+(Circular design, repairability, take-back systems)",3c. END OF LIFE CYCLE,HIGH,Does the supplier offer a formal repair or refurbishment program after delivery or use?,"4=Formal
+3=Partial
+2=Ad-hoc
+1=None"
+"3. PRODUCT DESIGN  & LIFECYCLE 
+(Circular design, repairability, take-back systems)",3d. LOGISTICS,HIGH,"Does the supplier provide take-back, recycling, or end-of-life disposal guidance for products?","4=Comprehensive
+3=Partial
+2=Limited
+1=None"
+"3. PRODUCT DESIGN  & LIFECYCLE 
+(Circular design, repairability, take-back systems)",3d. LOGISTICS,MEDIUM,"Does the supplier track and report recovery outcomes (e.g., % reused/recycled) and disclose the final destination of returned products?","4=Full Transparency
+3=Limited
+2=Partial
+1=None"
+"3. PRODUCT DESIGN  & LIFECYCLE 
+(Circular design, repairability, take-back systems)",3d. LOGISTICS,LOW,"Are packaging materials minimised and made from recyclable, compostable, or reusable materials?","4=Fully sustainable
+3=Partial
+2=Limited
+1=None"
+"3. PRODUCT DESIGN  & LIFECYCLE 
+(Circular design, repairability, take-back systems)",3e. ETHICS/COMMUNITIES,LOW,"Does the supplier optimise transport (local sourcing, route/load efficiency, low-emission options) to reduce carbon impact?","4=Fully optimised
+3=Limited
+2=Partial
+1=None"
+"3. PRODUCT DESIGN  & LIFECYCLE 
+(Circular design, repairability, take-back systems)",3e. ETHICS/COMMUNITIES,HIGH,"How does the supplier manage defective or returned products to prevent waste (repair, reuse, or recycle)?","4=Clear process
+3=Partial
+2=Basic
+1=Unknown"
+"3. PRODUCT DESIGN  & LIFECYCLE 
+(Circular design, repairability, take-back systems)",3f.FIRST NATIONS COMMUNITIES,HIGH,"Does the supplier work with or support Indigenous or Aboriginal communities, follow cultural protocols, and ensure fair recognition or benefit sharing?","4=Active support
+3=Limited
+2=None
+1=Not applicable"
+"4. COMMITMENT & COLLABORATION
+(Cultural, strategic, and partnership-oriented sustainability efforts)",4a. SUSTAINABILITY  GOALS & ACHIEVEMENTS,HIGH,"Has the company stated any measurable or practical sustainability goals (e.g. local sourcing, reduced packaging, recycled materials, climate target)?","5=Target + certified plan
+4=Quantified target
+3=Practical/local goal
+2=General intent
+1=None"
+"4. COMMITMENT & COLLABORATION
+(Cultural, strategic, and partnership-oriented sustainability efforts)",4a. SUSTAINABILITY  GOALS & ACHIEVEMENTS,MEDIUM,"Has the company shown quantitative or qualitative progress (e.g. switch to recycled stock, reduced plastic, local manufacturing)?","5=Externally verified
+4=Measured trend
+3=Some examples
+2=General claims
+1=None"
+"4. COMMITMENT & COLLABORATION
+(Cultural, strategic, and partnership-oriented sustainability efforts)",4a. SUSTAINABILITY  GOALS & ACHIEVEMENTS,HIGH,"What sustainability-related or product-quality standards does the company hold (e.g. ISO 14001, B Corp, FSC, NAA Q-Infinity, PAT ISO 18916)?","5=Externally audited multi-standard
+4=Multiple certifications
+3=One valid certification
+2=Planned
+1=None"
+"4. COMMITMENT & COLLABORATION
+(Cultural, strategic, and partnership-oriented sustainability efforts)",4b. PARTNERSHIP & COLLABORATION,MEDIUM,"Has the company demonstrated local or social-impact procurement (e.g. Australian-made, regional sourcing, social enterprise links)? ","5=>25% spend to social-impact enterprise
+4=>90% local
+3=>50% local
+2=<50% local
+1=None"
+"4. COMMITMENT & COLLABORATION
+(Cultural, strategic, and partnership-oriented sustainability efforts)",4c. FIRST NATIONS COMMUNITIES,HIGH,"Any partnerships or acknowledgement with Aboriginal and Torres Strait Islander communities organisations (RAP, procurement, cultural initiatives)?","5=Formal RAP with outcomes
+4=Active collaboration
+3=Initial planning
+2=Informal awareness
+1=None"
+"4. COMMITMENT & COLLABORATION
+(Cultural, strategic, and partnership-oriented sustainability efforts)",4c. FIRST NATIONS COMMUNITIES,HIGH,"Has the company collaborated with clients or partners to improve sustainability (e.g. eco-materials, reuse systems, conservation projects)? ","5=Measured outcome
+4=Active pilot
+3=Informal collaboration
+2=Concept only
+1=None"
+"4. COMMITMENT & COLLABORATION
+(Cultural, strategic, and partnership-oriented sustainability efforts)",4d. INNOVATION & CONTINUOUS IMPROVEMENT,LOW,Does the company track or publish environmental or product-durability indicators? ,"5=Externally verified
+4=Public reporting
+3=Internal tracking
+2=Qualitative/indirect
+1=None"
+"4. COMMITMENT & COLLABORATION
+(Cultural, strategic, and partnership-oriented sustainability efforts)",4d. INNOVATION & CONTINUOUS IMPROVEMENT,MEDIUM,Has the company invested in eco-design or product innovation to extend life or reduce impact? ,"5=Dedicated program
+4=Documented R&D
+3=Regular improvement
+2=<1% effort
+1=None"
+"4. COMMITMENT & COLLABORATION
+(Cultural, strategic, and partnership-oriented sustainability efforts)",4d. INNOVATION & CONTINUOUS IMPROVEMENT,LOW,Has the workforce taken part in sustainability or community initiatives recently?,"5=>75%
+4=51–75%
+3=26–50%
+2=1–25%
+1=None"
+"5. COMPLIANCE & GOVERNANCE 
+(Legal, ethical, and regulatory integrity)",5a. REGULATORY AND GOVERNANCE SYSTEM,HIGH,"Does the supplier hold any environmental policy, sustainability report, or compliance statement that demonstrates adherence to Australian environmental laws?","4=Full compliance and relevant certifications
+3=Full compliance and partial certification
+2=Partially compliant but no certifications
+1=Minimal or no compliance"
+"5. COMPLIANCE & GOVERNANCE 
+(Legal, ethical, and regulatory integrity)",5a. REGULATORY AND GOVERNANCE SYSTEM,LOW,Have there been any reported compliance violations or enforcement actions against the supplier in the past five years?,"4=Significant violations identified
+3=Moderate violations resolved
+2=Minor or isolated incidents reported
+1=No violations reported"
+"5. COMPLIANCE & GOVERNANCE 
+(Legal, ethical, and regulatory integrity)",5a. REGULATORY AND GOVERNANCE SYSTEM,MEDIUM,Does the supplier have formal governance systems in place to ensure ongoing legal and ethical compliance with Australian regulations?,"4=Formal governance system implemented
+3=Documented internal policy
+2=Informal/ad hoc system
+1=None"
+"5. COMPLIANCE & GOVERNANCE 
+(Legal, ethical, and regulatory integrity)",5b. CERTIFICATION,HIGH,"Are there any third-party certifications that verify the sustainability of the sourcing practices?
+If yes, please list them and share link. If no, indicate "not found online."","4=Reconciliation Action Plan (RAP) (Australia) or others certifications
+3=Fair Trade Certification
+2=SA8000 – Social Accountability Standard
+1=Global Reporting Initiative (GRI) Standards"
+"5. COMPLIANCE & GOVERNANCE 
+(Legal, ethical, and regulatory integrity)",5c. ETHICAL SOURCING & FAIR WORK PRACTICES,HIGH,Are all workers employed by the supplier under conditions that comply with the Fair Work Act 2009?,"4=Verified compliance
+3=Claimed compliance
+2=Partial compliance or unclear
+1=Minimal or no compliance"
+"5. COMPLIANCE & GOVERNANCE 
+(Legal, ethical, and regulatory integrity)",5c. ETHICAL SOURCING & FAIR WORK PRACTICES,MEDIUM,Does the supplier ensure ethical sourcing and traceability across its supply chain?,"4=Third-party verified ethical sourcing
+3=Publicly disclosed traceability data
+2=Internal traceability policy
+1=General ethical statements only"
+"5. COMPLIANCE & GOVERNANCE 
+(Legal, ethical, and regulatory integrity)",5c. ETHICAL SOURCING & FAIR WORK PRACTICES,LOW,Are workers employed by the supplier trained in anti-corruption and ethical-business practices?,"4=Regular mandatory training
+3=Documented internal program
+2=Informal or occasional training
+1=None"
+"5. COMPLIANCE & GOVERNANCE 
+(Legal, ethical, and regulatory integrity)",5c. ETHICAL SOURCING & FAIR WORK PRACTICES,HIGH,Does the supplier have a process to report and remediate breaches or unethical practices?,"4=Formal documented process
+3=Internal reporting mechanism
+2=Informal process
+1=None"
+"5. COMPLIANCE & GOVERNANCE 
+(Legal, ethical, and regulatory integrity)",5d. DATA PRIVACY & CONFIDENTIALITY,HIGH,Does the supplier comply with relevant privacy legislation?,"4=Privacy policy in place
+3=Documented internal compliance
+2=Partial or informal policy
+1=None"
+"5. COMPLIANCE & GOVERNANCE 
+(Legal, ethical, and regulatory integrity)",5d. DATA PRIVACY & CONFIDENTIALITY,MEDIUM,Does the supplier have documented policies for secure data storage and management?,"4=Certified data security framework
+3=Documented but internal
+2=Informal practice only
+1=None"
+"5. COMPLIANCE & GOVERNANCE 
+(Legal, ethical, and regulatory integrity)",5d. DATA PRIVACY & CONFIDENTIALITY,MEDIUM,How does the supplier ensure confidentiality of client and project information?,"4=Documented management process
+3=Internal policy
+2=General statement
+1=None"
+"5. COMPLIANCE & GOVERNANCE 
+(Legal, ethical, and regulatory integrity)",5e. REPORTING & TRANSPARENCY,LOW,Does the supplier report on sustainability and compliance performance to clients or authorities?,"4=Regular reporting
+3=Limited disclosures
+2=Internal only
+1=None"
+"5. COMPLIANCE & GOVERNANCE 
+(Legal, ethical, and regulatory integrity)",5e. REPORTING & TRANSPARENCY,HIGH,Does the supplier track and communicate Key Performance Indicators (KPIs) for compliance and sustainability?,"4=KPIs tracked and reported
+3=Documented KPIs (internal use)
+2=Informal tracking only
+1=None"
+"5. COMPLIANCE & GOVERNANCE 
+(Legal, ethical, and regulatory integrity)",5e. REPORTING & TRANSPARENCY,LOW,Does the supplier have mechanisms in place for stakeholders to raise concerns or request information?,"4=Documented and monitored mechanism
+3=Formal stakeholder engagement process
+2=Informal communication only
+1=None"
+"5. COMPLIANCE & GOVERNANCE 
+(Legal, ethical, and regulatory integrity)",5f. RISK MANAGEMENT,LOW,Does the supplier maintain a formal risk-management framework or register?,"4=Formal risk register maintained
+3=Documented internal framework
+2=Informal or draft framework
+1=None"
+"5. COMPLIANCE & GOVERNANCE 
+(Legal, ethical, and regulatory integrity)",5f. RISK MANAGEMENT,MEDIUM,"How does the supplier identify and mitigate operational, sustainability, and compliance risks?","4=Comprehensive risk identification and mitigation plan
+3=Documented internal procedures
+2=Reactive risk processes
+1=None"
+"5. COMPLIANCE & GOVERNANCE 
+(Legal, ethical, and regulatory integrity)",5f. RISK MANAGEMENT,LOW,Does the supplier regularly review and update its risk management procedures?,"4=Regularly reviewed
+3=Reviewed annually
+2=Reviewed irregularly
+1=None"
+"5. COMPLIANCE & GOVERNANCE 
+(Legal, ethical, and regulatory integrity)",5g.FIRST NATIONS COMMUNITIES,MEDIUM,"Does the supplier have policies ensuring respect for Indigenous or Aboriginal community rights, including consultation and consent?","4=Assured policies or practices
+3=Internal reporting only
+2=Minimal evidence
+1=None"
+"5. COMPLIANCE & GOVERNANCE 
+(Legal, ethical, and regulatory integrity)",5g.FIRST NATIONS COMMUNITIES,MEDIUM,Does the supplier have an Indigenous ownership background or Supply Nation registration/certification?,"4=Certified
+3=Registered
+2=Parcially
+1=None"
+"6. OVERALL PERFORMANCE & REFERENCES
+(Reputation and real-world validation)",6a CLIENT TESTIMONIALS & REFERENCES,MEDIUM,"Are there public testimonials, client stories, or case studies about the supplier's sustainability or ethical practices?","4=Consistent
+3=Multiple
+2=Limited
+1=None"
+"6. OVERALL PERFORMANCE & REFERENCES
+(Reputation and real-world validation)",6a CLIENT TESTIMONIALS & REFERENCES,HIGH,"Does the supplier show evidence of measurable sustainability results (e.g., waste reduction, certifications, social initiatives)?","4=Audited
+3=Quantified outcomes
+2=General claims
+1=No evidence"
+"6. OVERALL PERFORMANCE & REFERENCES
+(Reputation and real-world validation)",6a CLIENT TESTIMONIALS & REFERENCES,MEDIUM,"Has the supplier previously partnered with cultural or public institutions (museums, galleries, councils, universities)?","4=Multiple ongoing projects
+3=Documented projects
+2=One mention
+1=No record"
+"6. OVERALL PERFORMANCE & REFERENCES
+(Reputation and real-world validation)",6a CLIENT TESTIMONIALS & REFERENCES,HIGH,"Does the supplier demonstrate engagement with Aboriginal and Torres Strait Islander communities (partnerships, procurement, employment, art credit)?","4=Active program
+3=One off initiative
+2=Acknowledgement only
+1=None"
+"6. OVERALL PERFORMANCE & REFERENCES
+(Reputation and real-world validation)",6a CLIENT TESTIMONIALS & REFERENCES,LOW,"How transparent is the supplier in disclosing sustainability data and references online (policies, reports, or supplier codes)?","4=Report with metrics
+3=Detailed report
+2=Basic policy
+1=No disclosure"
