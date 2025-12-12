@@ -2,7 +2,7 @@
 
 Prototype frontend for supplier sustainability assessments: structured questionnaires, evidence capture, and weighted scoring with optional AI assist.
 
-**[Live Demo](https://troublemaker-unsw.github.io/tph/)** | **[Demo Video](https://youtu.be/lWaKeU7Omo0)**
+**[Live Demo](https://troublemaker-6.github.io/Supplier-Sustainability-Assessement-Tool/#dashboard)** | **[Demo Video](https://youtu.be/lWaKeU7Omo0)**
 
 ## Background
 
