@@ -1,4 +1,4 @@
-# Powerhouse Museum Sustainable Supplier Evaluation System
+# Sustainable Supplier Evaluation System
 
 Prototype frontend for supplier sustainability assessments: structured questionnaires, evidence capture, and weighted scoring with optional AI assist.
 
